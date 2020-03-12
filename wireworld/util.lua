@@ -13,7 +13,7 @@ end
 function state(num)
 	if type(num) == "string" then return state end
 	ind=1
-	for state, v in pairs(sttings.states) do
+	for state, v in pairs(settings.states) do
 		if num == ind then return state end
 		ind = ind + 1
 	end
